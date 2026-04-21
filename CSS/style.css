@@ -1,0 +1,77 @@
+/* Fonte externa */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Seletor por elemento */
+body {
+    background-color: #f5f6fa;
+    color: #2f3640;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* Segunda fonte */
+h1, h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Seletor por ID */
+#topo {
+    background-color: #273c75;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Seletor por classe */
+.header {
+    text-align: center;
+}
+
+/* Estilos de fonte */
+h1 {
+    font-weight: bold; /* negrito */
+}
+
+p {
+    font-style: italic; /* itálico */
+}
+
+/* Seletor por atributo */
+a[href] {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+/* Pseudo-classe */
+a:hover {
+    color: #e74c3c;
+}
+
+/* Decoração de texto */
+h2 {
+    text-decoration: underline;
+}
+
+/* Seções */
+section {
+    background-color: white;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Lista */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Itens de habilidade */
+.habilidades li {
+    font-weight: bold;
+}
+
+/* Imagens */
+img {
+    border-radius: 8px;
+}
